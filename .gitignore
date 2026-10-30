@@ -1,0 +1,38 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated evaluation output
+results/*.csv
+!results/.gitkeep
+
+# Generated screenshots (keep the README's showcase image if you add it)
+screenshots/*.png
+!screenshots/2_ai_hill_climbing.png
+
+# Logs and temporary files
+*.log
+*.tmp
